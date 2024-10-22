@@ -135,7 +135,7 @@
   if ($(".subscribe_form").length > 0) {
     $(".subscribe_form").ajaxChimp({
       language: "es",
-      callback: mailchimpCallback,
+      callback: mailchimpCallback, 
       url: "//alexatheme.us14.list-manage.com/subscribe/post?u=48e55a88ece7641124b31a029&amp;id=361ec5b369",
     });
   }
